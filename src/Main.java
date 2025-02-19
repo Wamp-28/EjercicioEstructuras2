@@ -12,5 +12,22 @@ public class Main {
 
 
 
+
+
+        System.out.println("JULIAN SANTIAGO VILLAMIL GALINDO");
+        System.out.println("leer codigo JAVA");
+        System.out.println("Dibujar");
+        System.out.println("Perro: Mono");
+
+
+
+
+
+
+
+
+
+
+
     }
 }
