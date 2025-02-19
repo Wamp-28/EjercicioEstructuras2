@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Jerson Duban Flautero Sanchez");
         System.out.println("Jugar Bolirrana");
         System.out.println("Futsal");
-        System.out.println("Si perro max ");
+        System.out.println("Si, perro, max ");
 
 
 
