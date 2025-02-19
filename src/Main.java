@@ -10,6 +10,10 @@ public class Main {
         System.out.println("git switch rama");
         System.out.println("git branch");
 
+        System.out.println("Angie Tatiana Rincón Domínguez");
+        System.out.println("Leer");
+        System.out.println("Basketball");
+        System.out.println("No tengo mascotas");
 
 
     }
