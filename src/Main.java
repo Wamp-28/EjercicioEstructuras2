@@ -10,6 +10,11 @@ public class Main {
         System.out.println("git switch rama");
         System.out.println("git branch");
 
+        System.out.println("Miller Alejandro Chacon Fandiño");
+        System.out.println("Dibujar");
+        System.out.println("Futbol");
+        System.out.println("No tengo Mascotas");
+
 
 
     }
