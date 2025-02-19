@@ -10,6 +10,9 @@ public class Main {
         System.out.println("git switch rama");
         System.out.println("git branch");
 
-
+        System.out.println("Carlos David Forero Gutierrez");
+        System.out.println("Jugar videojuegos");
+        System.out.println("volley");
+        System.out.println("No tengo");
     }
 }
