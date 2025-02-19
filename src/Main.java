@@ -10,7 +10,9 @@ public class Main {
         System.out.println("git switch rama");
         System.out.println("git branch");
 
-
+        System.out.println("Sebastian Jimenez V.");
+        System.out.println("Leer libros de terror y ciencia ficcion");
+        System.out.println("Caminata");
 
     }
 }
