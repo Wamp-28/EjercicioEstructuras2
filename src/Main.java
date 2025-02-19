@@ -10,6 +10,11 @@ public class Main {
         System.out.println("git switch rama");
         System.out.println("git branch");
 
+        System.out.println("Marlon Eduardo Cetina Gomez");
+        System.out.println("Jugar futbol");
+        System.out.println("Microfutbol");
+        System.out.println("Gato: Papelito");
+
 
 
     }
