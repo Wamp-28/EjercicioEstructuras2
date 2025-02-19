@@ -10,7 +10,10 @@ public class Main {
         System.out.println("git switch rama");
         System.out.println("git branch");
 
-
+        System.out.println("JUAN DAVID VANEGAS MENDEZ");
+        System.out.println("VER PELICULAS");
+        System.out.println("FUTBOL");
+        System.out.println("PERRO: YACO");
 
     }
 }
