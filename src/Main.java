@@ -10,7 +10,10 @@ public class Main {
         System.out.println("git switch rama");
         System.out.println("git branch");
 
-
-
+        System.out.println("AVRIL DAYANNA ESPITIA BARRAGAN");
+        System.out.println("LEER LIBROS");
+        System.out.println("JUGAR");
+        System.out.println("PERRO: JANGO");
+      
     }
 }
