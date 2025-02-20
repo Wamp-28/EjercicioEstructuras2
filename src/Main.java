@@ -10,6 +10,11 @@ public class Main {
         System.out.println("git switch rama");
         System.out.println("git branch");
 
+        System.out.println("Andres Felipe Velandia Gomez");
+        System.out.println("Ver Series");
+        System.out.println("Futbol");
+        System.out.println("No tengo mascotas");
+
 
 
     }
