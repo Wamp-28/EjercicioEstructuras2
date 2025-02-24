@@ -13,7 +13,21 @@ public class Main {
         //el switch evalua los casos y ejecuta el cual se alinea con la condicion
         // A al ser igual a 1 nos arroja la impresion del caso 1
 
+        //uso del switch nuevo
+
+        int Dia = 1;
+        String Materia = switch (Dia) {
+            case 1 , 3 -> "Estructura de datos";
+            case 2, 4 -> "Algebra lineal" ;
+            case 5 -> "Calculo";
+            default -> "Es fin de semana";
+        };
+        System.out.println(Materia); // "Día laborable"
+    }
+    // Como funciona este nuevo switch:
+    /*Permite retornar un Dato dependiendo de los casos
+    en este caso devuelve un string que es la materia segun el caso del dia */
+
 
 
     }
-}
