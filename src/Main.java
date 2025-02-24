@@ -21,8 +21,9 @@ public class Main {
             case 2, 4 -> "Algebra lineal" ;
             case 5 -> "Calculo";
             default -> "Es fin de semana";
+
         };
-        System.out.println(Materia); // "Día laborable"
+        System.out.println(Materia); 
     }
     // Como funciona este nuevo switch:
     /*Permite retornar un Dato dependiendo de los casos
