@@ -23,9 +23,9 @@ public class Main {
             if (opcionMenu < 1 || opcionMenu > 6) {
                 System.out.println("Opción no válida. Debe elegir un número entre 1 y 6.");
             } else {
-                System.out.print("Ingrese el primer número (entre 1 y 100): ");
+                System.out.print("Ingrese el primer número entre 1 y 100: ");
                 num1 = teclado.nextInt();
-                System.out.print("Ingrese el segundo número (entre 1 y 100): ");
+                System.out.print("Ingrese el segundo número entre 1 y 100: ");
                 num2 = teclado.nextInt();
 
                 if (num1 < 1 || num1 > 100 || num2 < 1 || num2 > 100) {
