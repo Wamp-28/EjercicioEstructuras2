@@ -61,7 +61,7 @@ do {
 
     }
 
-    System.out.println("¿DECEAS REALIZAR OTRA OPERACION? (s,n)");
+    System.out.println("¿DECEAS REALIZAR OTRA OPERACION? (s,n)");git
      res=scanner.next();
 
 
