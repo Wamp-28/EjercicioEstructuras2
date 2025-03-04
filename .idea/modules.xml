@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/EjercioEstructurasB.iml" filepath="$PROJECT_DIR$/EjercioEstructurasB.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/APUESTASJULIAN.iml" filepath="$PROJECT_DIR$/APUESTASJULIAN.iml" />
+>>>>>>> 9110852 (Trabajo de Clase)
     </modules>
   </component>
 </project>
