@@ -22,7 +22,7 @@ public class Apuestas {
             switch (resultado) {
                 case 1:
                     monto += apuesta;
-                    System.out.println("¡Ganaste! Tu monto se ha multiplicado.");
+                    System.out.println("FELICIDADES, Tu monto se ha multiplicado.");
                     break;
                 case 2:
                     monto -= apuesta / 2;
