@@ -57,7 +57,7 @@ public class Main {
                 case 5:
                     System.out.println("Exponencial");
                     total=alt1*alt2;
-                    System.out.println("El numero: "+alt1+" elevado a "+alt2+" da como resultado "+total);
+                    System.out.println("El numero elevado da como resultado:" + Math.pow((double)alt1, (double)alt2));
                     break;
 
 
