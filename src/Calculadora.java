@@ -9,8 +9,8 @@ public class Calculadora {
         boolean continuar = true;
 
         while (continuar) {
-            int num1 = random.nextInt(100) + 1;
-            int num2 = random.nextInt(100) + 1;
+            int n1 = random.nextInt(100) + 1;
+            int n2 = random.nextInt(100) + 1;
 
             System.out.print("Ingrese un signo aritmético (+, -, *, /, ^, %): ");
             String signo = scanner.next();
@@ -19,22 +19,22 @@ public class Calculadora {
 
             switch (signo) {
                 case "+":
-                    resultado = num1 + num2;
+                    resultado = n1 + n2;
                     break;
                 case "-":
-                    resultado = num1 - num2;
+                    resultado = n1 - n2;
                     break;
                 case "*":
-                    resultado = num1 * num2;
+                    resultado = n1 * n2;
                     break;
                 case "/":
-                    resultado = (double) num1 / num2;
+                    resultado = (double) n1 / n2;
                     break;
                 case "^":
-                    resultado = Math.pow(num1, num2);
+                    resultado = Math.pow(n1, n2);
                     break;
                 case "%":
-                    resultado = num1 % num2;
+                    resultado = n1 % n2;
                     break;
                 default:
                     System.out.println("Signo aritmético no válido.");
