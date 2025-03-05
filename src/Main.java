@@ -12,10 +12,10 @@ public class Main {
             int numero1 = ale.nextInt(100) + 1;
             int numero2 = ale.nextInt(100) + 1;
 
-            System.out.println("Número 1: " + numero1);
-            System.out.println("Número 2: " + numero2);
+            System.out.println("Numero 1: " + numero1);
+            System.out.println("Numero 2: " + numero2);
 
-            System.out.println("Ingrese un signo aritmético (+, -, *, /, ^, %):");
+            System.out.println("Digite un signo (+, -, *, /, ^, %):");
             String signo = teclado.next();
 
             switch (signo) {
@@ -32,7 +32,7 @@ public class Main {
                     if (numero2 != 0) {
                         System.out.println("Resultado: " + ((double) numero1 / numero2));
                     } else {
-                        System.out.println("Error: División por cero.");
+                        System.out.println(" Error");
                     }
                     break;
                 case "^":
@@ -42,11 +42,11 @@ public class Main {
                     if (numero2 != 0) {
                         System.out.println("Resultado: " + (numero1 % numero2));
                     } else {
-                        System.out.println("Error: División por cero.");
+                        System.out.println("Error");
                     }
                     break;
                 default:
-                    System.out.println("Signo aritmético no válido.");
+                    System.out.println("Signo no válido.");
                     break;
             }
 
