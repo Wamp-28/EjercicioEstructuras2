@@ -7,15 +7,16 @@ public class Calculadora {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         boolean continuar = true;
+        double resultado;
+        int max = 100;
+        int min = 1;
 
         while (continuar) {
-            int n1 = random.nextInt(100) + 1;
-            int n2 = random.nextInt(100) + 1;
+            int n1 = random.nextInt((max - min + 1)) + max;
+            int n2 = random.nextInt((max - min + 1)) + max;
 
             System.out.print("Ingrese un signo aritmético (+, -, *, /, ^, %): ");
             String signo = scanner.next();
-
-            double resultado = 0;
 
             switch (signo) {
                 case "+":
