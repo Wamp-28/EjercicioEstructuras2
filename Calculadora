@@ -1,0 +1,97 @@
+
+import java.util.Random;
+import java.util.Scanner;
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner teclado = new Scanner(System.in);
+        Random Ale= new Random();
+
+        int max=100;
+        int min=1;
+        int n1,n2;
+        double res;
+        String signo;
+
+        n1 = Ale.nextInt((max - min + 1)) + 1;
+        n2 = Ale.nextInt((max - min + 1)) + 1;
+
+        System.out.println(" **  CALCULADORA  **");
+        System.out.println("Sus dos numeros aleatorios son: "+n1+  "y"  +n2 );
+
+
+      do{
+
+          System.out.println("""
+                   Elije que operacion desea realizar 
+                
+                +=(Suma)
+                -=(Resta)
+                *=(Multiplicacion)
+                /=(Division)
+                ^=(Potencia)
+                %=(Modulo)
+                S=(Salir)
+                
+                
+                """
+          );
+          signo=teclado.next();
+
+          switch (signo){
+              case "+": {
+                res=n1+n2;
+                System.out.println("El resultado de la suma es: "+res);
+
+              }break;
+              case "-": {
+                  res= n1 - n2;
+                  System.out.println("El resultado de la resta es: "+res);
+
+              }break;
+              case "*": {
+                  res= n1 * n2;
+                  System.out.println("El resultado de la multiplicacion es: "+res);
+
+              }break;
+              case "/": {
+                  res=n1 + n2;
+                  System.out.println("El resultado de la division es: "+res);
+
+              }break;
+              case "^": {
+                  res=Math.pow(n1,n2);
+                  System.out.println("El resultado de la potencia es: "+res);
+
+              }break;
+              case "%": {
+                  res= n1 % n2;
+                  System.out.println("El resultado de la suma es: "+res);
+
+              }break;
+              default: {
+                  System.out.print("Ingrese una opcion valida");
+              }
+              break;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+      }while(!signo.equals("s"));
+
+
+
+   }
+}
