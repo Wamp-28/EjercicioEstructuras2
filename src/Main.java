@@ -21,7 +21,7 @@ public class Main {
             if (d1==1){
                 Minicial= Minicial * 2;
                 System.out.println("¡SE DUPLICA! SU MONTO ES DE: " + Minicial);
-                System.out.println("QUIERE SEGUIR JUGANDO 1=si 2=no");
+                System.out.println("QUIERE SEGUIR JUGANDO 1 = si 2 = no");
                 Cn = teclado.nextInt();
                 if (Cn==1){
                     System.out.println("JUGANDO");
