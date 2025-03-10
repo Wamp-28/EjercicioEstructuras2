@@ -10,8 +10,7 @@ public class Main {
 
         System.out.println("Ingrese sus datos:");
         System.out.print("Nombre: ");
-        teclado.next();
-        nom = teclado.nextLine();
+        nom = teclado.next();
 
         System.out.print("Ingrese su teléfono: ");
         tel = teclado.nextInt();
@@ -56,13 +55,12 @@ public class Main {
 
         } while (pro != 6);
 
-        System.out.println("--- Factura de Compra ---");
-        System.out.println("Nombre del cliente: " + nom);
-        System.out.println("Teléfono del cliente: " + tel);
-        System.out.println("Fecha de la factura: " + fe);
-        System.out.println("Subtotal: " + sbt);
-        System.out.println("IVA (16%): " + iva);
-        System.out.println("Valor total: " + vt);
+        System.out.println("---------------------------- Factura de Compra ------------------------------");
+        System.out.println(" Nombre del cliente:         Telefono del cliente:           Fecha de la factura:");
+        System.out.println(" "+nom+  "                    "+tel+"                           "+fe);
+        System.out.println("                                                        Subtotal: " + sbt);
+        System.out.println("                                                        IVA (16%): " + iva);
+        System.out.println("                                                        Valor total: " + vt);
 
         teclado.close();
     }
