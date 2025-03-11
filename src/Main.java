@@ -5,8 +5,8 @@ public class Main {
         Scanner teclado = new Scanner(System.in);
 
         double vt = 0, sbt = 0, iva = 0;
-        int tel, pro, can = 0;
-        String fe, nom;
+        int tel, pro, can ;
+        String fe, nom,pdtoc = "";
 
         System.out.println("Ingrese sus datos:");
         System.out.print("Nombre: ");
@@ -30,6 +30,19 @@ public class Main {
                     Ingrese el producto que desea comprar:""");
 
             pro = teclado.nextInt();
+            String prodf = switch (pro){
+              case 1-> "Mouse";
+              case 2-> "Teclado";
+                case 3 -> "Monitor";
+                case 4 -> "Disco Duro";
+                case 5 -> "Ram";
+                case 6 -> "Producto Invalido";
+                default -> {
+                    System.out.println("Producto desconocido, intente de nuevo.");
+                    yield "Producto Invalido";
+                }
+
+            };
             double vu = switch (pro) {
                 case 1 -> 80000;
                 case 2 -> 320000;
@@ -47,10 +60,10 @@ public class Main {
             if (vu > 0) {
                 System.out.print("¿Qué cantidad va a comprar? ");
                 can = teclado.nextInt();
-
                 sbt = vu * can;
                 iva = sbt * 0.16;
                 vt = sbt + iva;
+                pdtoc += (can + "-" + prodf + "\n");
             }
 
         } while (pro != 6);
@@ -61,7 +74,7 @@ public class Main {
         System.out.println("                                                        Subtotal: " + sbt);
         System.out.println("                                                        IVA (16%): " + iva);
         System.out.println("                                                        Valor total: " + vt);
-
+        System.out.println("\nSu produto es: \n"+pdtoc);
         teclado.close();
     }
 }
