@@ -1,0 +1,110 @@
+import java.util.Random;
+
+public class Main {
+    public static void main(String[] args) {
+        Random Alt = new Random();
+        int max = 12;
+        int min = 1;
+        int dad;
+        int exp = 0;
+        int vid = 15;
+        int max1 = 3;
+        int min1 = 1;
+        int suer;
+        System.out.println("""
+                
+                *** LA AVENTURA HA EMPEZADO ***
+                Tienes 15 puntos de vida y 0 puntos de experiencia
+                
+                || No te quedes con 0 de vida y obten 50 puntos de experiencia para escapar de la dimension ||
+                
+                """);
+        do {
+            dad = Alt.nextInt((max - min + 1)) + min;
+
+            switch (dad) {
+                case 1, 2 -> {
+                    System.out.println("""
+                            ** QUE BUENA SUERTE ACABAAS DE ENCONTRAR UNA FUENTE DE VIDA **
+                                     OBTIENES +1 PUNTO DE VIDA
+                            
+                            """);
+                    vid += 1;
+                }
+                case 3, 4, 5 -> {
+                    System.out.println("""
+                            ** QUE MALA SUERTE HAS SIDO ATACADO BRUTALEMENTE **
+                                     PIERDES -5 PUNTOS DE VIDA
+                            
+                            
+                            """);
+                    vid -= 5;
+
+                }
+                case 6, 7 -> {
+                    System.out.println("""
+                            ** QUE BUENA SUERTE ACABAS DE GANA EXPERIECIA EN LA AVENTURA **
+                                    OBTIENES +3 PUNTOS DE EXPERIENCIA
+                            
+                            """);
+                    exp += 3;
+                }
+                case 8, 9 -> {
+                    System.out.println("""
+                            ** QUE MALA SUERTE ACABAS DE COMETER UN ERROS GRAVE **
+                                   PIERDES -6 PUNTOS DE EXPERIENCIA 
+                            
+                            """);
+                    exp -= 6;
+                }
+                case 10, 11 -> {
+                    System.out.println("""
+                            ** ACABAS DE CAER EN UNA TRAMPA LETAL **
+                                 PIERDES -8 PUNTOS DE VIDA
+                            
+                            """);
+                    vid -= 8;
+
+                }
+                case 12 -> {
+                    Random num = new Random();
+                    suer = num.nextInt((max1 - min1 + 1)) + min;
+                    if (suer == 1) {
+                        System.out.println("""
+                                ** QUE BUENA SUERTE ACABAS DE ENCONTRAR UN PERGAMINO ANTIGUO **
+                                    OBTIENES +10 PUNTOS DE EXPERIENCIA     
+                                
+                                
+                                """);
+                        exp += 10;
+                    } else if (suer == 2) {
+                        System.out.println("""
+                                ** QUE MALA SUERTE ACABAS DE SER INFECTADO POR UN VENENO **
+                                    PIERDES -2 DE VIDA POR CADA TURNO    
+                                
+                                """);
+                        vid -= 2;
+
+                    } else if (suer == 3) {
+                        System.out.println("""
+                                ** QUE MALA SUERTE ACABAS DE PERDER LA MITAD DE TU VIDA **
+                                
+                                """);
+                        vid /= 2;
+
+                    }
+
+                }
+            }
+
+
+
+
+
+        }while (vid <= 0);
+            System.out.println("""
+                        ** EL JUEGO HA TERMINADO NO LOGRASTE ESCAPAR DE LA AVENTURA **
+                        
+                        """);
+    }
+}
