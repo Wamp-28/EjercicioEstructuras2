@@ -1,0 +1,92 @@
+class main
+
+
+
+
+class vehiculo
+
+abstract class Vehiculo {
+   protected String marca;
+   protected String modelo;
+   protected int año;
+   protected double precioBase;
+   protected String calcularPrecioFinal;
+
+
+
+   public Vehiculo(String marca, String modelo, int año, double precioBase) {
+
+       this.marca = marca;
+       this.modelo = modelo;
+       this.año = año;
+       this.precioBase = precioBase;
+
+   }
+
+    public abstract void mostrarInformacion();
+
+     abstract class calcularPrecioFinal{
+       public double getPrecioInicial() {
+           return precioBase + (precioBase * 0.10);
+       }
+       public void mostrarInformacion() {
+
+       }
+
+   }
+
+
+}
+
+
+class auto
+
+public class Auto extends Vehiculo{
+    private int numeroDePuertas;
+
+    public Auto(String marca, String modelo, int año, double precioBase) {
+        super(marca, modelo, año, precioBase);
+        this.numeroDePuertas = numeroDePuertas;
+    }
+    @Override
+    public void mostrarInformacion() {
+        System.out.println("Tipo de auto: ");
+        System.out.println("Marca: " + marca);
+        System.out.println("Modelo: " + modelo);
+        System.out.println("Año: " + año);
+        System.out.println("Precio Base: " +precioBase);
+        System.out.println("Numero de puertas: " + numeroDePuertas);
+        System.out.println("Precio final: " + calcularPrecioFinal());
+
+
+
+
+    }
+
+
+}
+
+
+class motocicleta 
+
+public class Motocicleta extends Vehiculo {
+    private int cilindraje;
+
+    public Motocicleta(String marca, String modelo, int año, double precioBase) {
+        super(marca, modelo, año, precioBase);
+        this.cilindraje = cilindraje;
+    }
+
+    @Override
+    public void mostrarInformacion() {
+        System.out.println("Tipo de auto: ");
+        System.out.println("Marca: " + marca);
+        System.out.println("Modelo: " + modelo);
+        System.out.println("Año: " + año);
+        System.out.println("Precio Base: " + precioBase);
+        System.out.println("Cilindraje: " + cilindraje);
+        System.out.println("Precio final: " + calcularPrecioFinal);
+    }
+
+
+}
