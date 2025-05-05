@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c65abbcd-8107-4dd0-a182-757832132ed9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bateria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hombre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestJuego.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Main",
+    "git-widget-placeholder": "Parcial2",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/angie/IdeaProjects/Parcial/src/Main.java"
   }
